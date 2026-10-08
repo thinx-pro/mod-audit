@@ -1,0 +1,30 @@
+{
+  "name": "mod-audit",
+  "version": "0.1.0",
+  "description": "See what a Claude Code plugin (mods, hooks, MCP) can do before you install or upgrade it. Capability report, lockfile and upgrade diff.",
+  "type": "module",
+  "bin": {
+    "mod-audit": "bin/mod-audit.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/mod-audit.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-code-mods",
+    "plugins",
+    "security",
+    "supply-chain",
+    "static-analysis",
+    "hooks",
+    "mcp"
+  ],
+  "license": "MIT"
+}

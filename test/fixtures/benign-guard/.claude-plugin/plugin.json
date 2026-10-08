@@ -1,0 +1,1 @@
+{ "name": "benign-guard", "version": "1.0.0", "description": "Blocks edits to .env files" }
