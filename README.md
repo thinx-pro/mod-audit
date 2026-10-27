@@ -97,9 +97,3 @@ The scanner is regex-based and runs on a copy of each file with comments blanked
 ## License
 
 MIT. Not affiliated with Anthropic. "Claude Code" is used only to describe compatibility.
-
----
-
-### 中文说明
-
-**mod-audit**：在安装或升级前看清一个 Claude Code 插件（Mods 函数钩子、经典 hooks、MCP、Skill）能做什么：挂了哪些事件，是否改写工具调用或确认框，是否读文件、联网、起进程、运行时拉代码执行。还能生成锁文件，升级时只列出新增的能力和域名，可配合 `--fail-on` 在 CI 里拦截。`npx github:thinx-pro/mod-audit` 一行运行，零依赖，只读文件、不执行插件代码。这是静态分析，「未发现」不等于「安全」。
