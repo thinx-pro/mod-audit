@@ -2,6 +2,9 @@
 
 **See what a Claude Code plugin can do before you install or upgrade it.** mod-audit statically reads a plugin's mods (function hooks), classic hooks, MCP config and skills. It tells you which events the plugin hooks, whether it rewrites tool calls or approval rows, and whether it reads files, makes network requests, runs processes or loads code at runtime. A lockfile then shows you what changed on each upgrade.
 
+<!-- agent-preflight -->
+> **Also a Claude Code skill.** `mod-audit` is part of [agent-preflight](https://github.com/thinx-pro/agent-preflight), 16 offline checks for coding agents: `/plugin marketplace add thinx-pro/agent-preflight` then `/plugin install mod-audit@agent-preflight`, and ask Claude in plain words.
+
 ![node >=18](https://img.shields.io/badge/node-%3E%3D18-3f8f5a) ![zero dependencies](https://img.shields.io/badge/dependencies-0-3f8f5a) ![license MIT](https://img.shields.io/badge/license-MIT-blue) ![static only](https://img.shields.io/badge/runs%20plugin%20code-never-3f8f5a)
 
 ![mod-audit scanning the bundled test fixtures](assets/terminal.png)
